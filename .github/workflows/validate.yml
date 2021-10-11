@@ -9,6 +9,7 @@ env:
 jobs:
   kbc-validate:
     runs-on: ubuntu-latest
+    environment: prod
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
