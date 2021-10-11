@@ -7,20 +7,20 @@
     "input": {
       "tables": [
         {
-          "source": "in.c-keboola-ex-db-mysql-5539611.telemetry",
+          "columns": [],
           "destination": "telemetry",
+          "source": "in.c-keboola-ex-db-mysql-5539611.telemetry",
           "where_column": "",
-          "where_values": [],
           "where_operator": "eq",
-          "columns": []
+          "where_values": []
         },
         {
-          "source": "in.c-keboola-ex-db-mysql-5539611.kbc-data-science-sandbox",
+          "columns": [],
           "destination": "kbc-data-science-sandbox",
+          "source": "in.c-keboola-ex-db-mysql-5539611.kbc-data-science-sandbox",
           "where_column": "",
-          "where_values": [],
           "where_operator": "eq",
-          "columns": []
+          "where_values": []
         }
       ]
     }
