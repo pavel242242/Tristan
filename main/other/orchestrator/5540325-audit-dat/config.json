@@ -1,0 +1,40 @@
+{
+  "crontabRecord": "15 16 * * *",
+  "crontabTimezone": null,
+  "token": {
+    "id": "18575",
+    "description": "Orchestrator Audit Dat"
+  },
+  "active": true,
+  "tasks": [
+    {
+      "id": 6003796,
+      "component": "keboola.ex-db-mysql",
+      "componentUrl": null,
+      "action": "run",
+      "actionParameters": {
+        "config": "5539611"
+      },
+      "timeoutMinutes": null,
+      "active": true,
+      "continueOnFailure": false,
+      "phase": "Data acquisition"
+    },
+    {
+      "id": 6003797,
+      "component": "keboola.snowflake-transformation",
+      "componentUrl": null,
+      "action": "run",
+      "actionParameters": {
+        "config": "5539862"
+      },
+      "timeoutMinutes": null,
+      "active": true,
+      "continueOnFailure": false,
+      "phase": "Data Quality Check"
+    }
+  ],
+  "notifications": [],
+  "variableValuesId": null,
+  "variableValuesData": null
+}

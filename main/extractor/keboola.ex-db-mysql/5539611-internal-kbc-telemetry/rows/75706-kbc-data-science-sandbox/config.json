@@ -1,0 +1,17 @@
+{
+  "processors": {},
+  "parameters": {
+    "outputTable": "in.c-keboola-ex-db-mysql-5539611.kbc-data-science-sandbox",
+    "table": {
+      "schema": "telemetry",
+      "tableName": "kbc_data_science_sandbox"
+    },
+    "incrementalFetchingColumn": "created_at",
+    "incremental": false,
+    "primaryKey": [
+      "kbc_data_science_sandbox_id",
+      "date"
+    ],
+    "columns": []
+  }
+}

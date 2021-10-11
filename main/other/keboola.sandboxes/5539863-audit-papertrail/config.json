@@ -1,0 +1,28 @@
+{
+  "parameters": {
+    "packages": [],
+    "id": "5539866"
+  },
+  "storage": {
+    "input": {
+      "tables": [
+        {
+          "source": "in.c-keboola-ex-db-mysql-5539611.telemetry",
+          "destination": "telemetry",
+          "where_column": "",
+          "where_values": [],
+          "where_operator": "eq",
+          "columns": []
+        },
+        {
+          "source": "in.c-keboola-ex-db-mysql-5539611.kbc-data-science-sandbox",
+          "destination": "kbc-data-science-sandbox",
+          "where_column": "",
+          "where_values": [],
+          "where_operator": "eq",
+          "columns": []
+        }
+      ]
+    }
+  }
+}

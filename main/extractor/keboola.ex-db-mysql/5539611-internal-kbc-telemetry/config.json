@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "db": {
+      "port": 3306,
+      "ssh": {
+        "sshPort": 22
+      },
+      "host": "telemetry-data-com-452.cme6t7v68xqv.eu-central-1.rds.amazonaws.com",
+      "user": "telemetry_ro",
+      "#password": "KBC::ProjectSecureKV::eJxLtDK2qs60MrIutjI0sLBSuveViSFS5fSixsjOHEabzZ2KB7qND52w9p7q+0zz+F2ZRr+47U3/OKz65Bh5lzg8OqD0Tvman4jbl9fxybk9l6QlHJdG6Kz+VsiUJbTB4ELijnyGZJXz31hy2rzVOZ+t6J858/u+50oPmLfLHfeZKW2kZJ1pZQy02MjMSik9NU83NS+5qLKgJL/IzNAkyTIlOdXQzMwyEaTKBKjK2MhKydTE3DwpNc0kKdXQyCTFMjHR1DzNMs0i2cLCLM3AJClNyboWAFXBTjU=",
+      "database": "telemetry"
+    }
+  }
+}

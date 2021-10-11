@@ -1,0 +1,13 @@
+{
+  "processors": {},
+  "parameters": {
+    "columns": [],
+    "primaryKey": [],
+    "incremental": false,
+    "outputTable": "in.c-keboola-ex-db-mysql-5539611.telemetry",
+    "table": {
+      "schema": "telemetry",
+      "tableName": "telemetry"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parameters": {},
+  "storage": {
+    "input": {
+      "tables": [
+        {
+          "columns": [],
+          "destination": "telemetry",
+          "source": "in.c-keboola-ex-db-mysql-5539611.telemetry",
+          "where_column": "",
+          "where_operator": "eq",
+          "where_values": []
+        },
+        {
+          "columns": [],
+          "destination": "ds_log",
+          "source": "in.c-keboola-ex-db-mysql-5539611.kbc-data-science-sandbox",
+          "where_column": "",
+          "where_operator": "eq",
+          "where_values": []
+        }
+      ]
+    },
+    "output": {
+      "tables": [
+        {
+          "delete_where_column": "",
+          "delete_where_operator": "eq",
+          "delete_where_values": [],
+          "destination": "out.c-audit-papertrail.AUDITLOG",
+          "incremental": true,
+          "primary_key": [
+            "TIMESTAMP",
+            "TABLE"
+          ],
+          "source": "AUDITLOG"
+        }
+      ]
+    }
+  }
+}

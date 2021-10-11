@@ -1,0 +1,4 @@
+{
+  "name": "Internal KBC telemetry",
+  "description": "# Telemetry data acquisition\n\nThis configuration fetch two tables from our internal telemetry system.\n\n- table `kbc_data_science_sandbox` has raw data about Python and Spark containers\n- table `telemetry` contains data about how telemetry is used by customers"
+}
