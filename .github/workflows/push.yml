@@ -16,6 +16,7 @@ jobs:
      group: main_branch
      cancel-in-progress: true
     runs-on: ubuntu-latest
+    environment: prod
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
