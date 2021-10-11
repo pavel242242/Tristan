@@ -1,3 +1,4 @@
+-- add comment
 create table "AUDITLOG" as --test
 select current_timestamp() as TIMESTAMP,
        count(*) as num_rows,
