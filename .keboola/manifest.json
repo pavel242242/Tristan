@@ -41,6 +41,13 @@
     },
     {
       "branchId": 4613,
+      "componentId": "keboola.ex-db-mysql",
+      "id": "6998257",
+      "path": "extractor/keboola.ex-db-mysql/6998257-my-my-sql-data-source",
+      "rows": []
+    },
+    {
+      "branchId": 4613,
       "componentId": "keboola.sandboxes",
       "id": "5539863",
       "path": "other/keboola.sandboxes/5539863-audit-papertrail",
