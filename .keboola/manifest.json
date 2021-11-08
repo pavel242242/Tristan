@@ -25,6 +25,13 @@
   "configurations": [
     {
       "branchId": 4613,
+      "componentId": "ex-generic-v2",
+      "id": "7237796",
+      "path": "extractor/ex-generic-v2/7237796-my-generic-data-source",
+      "rows": []
+    },
+    {
+      "branchId": 4613,
       "componentId": "keboola.ex-db-mysql",
       "id": "5539611",
       "path": "extractor/keboola.ex-db-mysql/5539611-internal-kbc-telemetry",
