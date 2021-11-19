@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "project": {
     "id": 4242,
     "apiHost": "connection.north-europe.azure.keboola.com"
@@ -8,7 +8,12 @@
   "naming": {
     "branch": "{branch_id}-{branch_name}",
     "config": "{component_type}/{component_id}/{config_id}-{config_name}",
-    "configRow": "rows/{config_row_id}-{config_row_name}"
+    "configRow": "rows/{config_row_id}-{config_row_name}",
+    "schedulerConfig": "schedules/{config_id}-{config_name}",
+    "sharedCodeConfig": "_shared/{target_component_id}",
+    "sharedCodeConfigRow": "codes/{config_row_id}-{config_row_name}",
+    "variablesConfig": "variables",
+    "variablesValuesRow": "values/{config_row_id}-{config_row_name}"
   },
   "allowedBranches": [
     "__main__"
@@ -55,6 +60,13 @@
     },
     {
       "branchId": 4613,
+      "componentId": "keboola.ex-db-mysql",
+      "id": "7317366",
+      "path": "extractor/keboola.ex-db-mysql/7317366-my-my-sql-data-source",
+      "rows": []
+    },
+    {
+      "branchId": 4613,
       "componentId": "keboola.sandboxes",
       "id": "5539863",
       "path": "other/keboola.sandboxes/5539863-audit-papertrail",
@@ -65,6 +77,13 @@
       "componentId": "keboola.snowflake-transformation",
       "id": "5539862",
       "path": "transformation/keboola.snowflake-transformation/5539862-audit-papertrail",
+      "rows": []
+    },
+    {
+      "branchId": 4613,
+      "componentId": "keboola.snowflake-transformation",
+      "id": "7237835",
+      "path": "transformation/keboola.snowflake-transformation/7237835-moj",
       "rows": []
     },
     {
